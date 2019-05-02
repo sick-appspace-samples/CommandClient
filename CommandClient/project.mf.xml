@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<manifest>
+    <application name="CommandClient">
+        <crown name="CommandClientSample">
+            <desc>user script</desc>
+            <serves/>
+        </crown>
+        <meta key="licensed">false</meta>
+        <meta key="author">AppSpace Sample</meta>
+        <meta key="priority">low</meta>
+        <meta key="version">2.5.0</meta>
+        <meta key="tags">Communication</meta>
+        <meta key="read-protected">false</meta>
+        <meta key="copy-protected">false</meta>
+        <entry path="resources">
+            <file type="application">AppEngine.sopas</file>
+        </entry>
+        <entry path="scripts" default="CommandClientSample.lua">
+            <file type="text/x-lua">CommandClientSample.lua</file>
+        </entry>
+    </application>
+</manifest>
